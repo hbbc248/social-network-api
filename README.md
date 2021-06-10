@@ -15,7 +15,7 @@
 
   ## Video
 
-  [![Walkthrough Video](./src/images/screenshot.jpg)](https://drive.google.com/file/d/1EwgA7-gnEoeEX5YDP5FA_3ILxE3Xe6KT/view)
+  [![Walkthrough Video](./assets/images/video-screenshot.jpg)](https://drive.google.com/file/d/1FtVljKrioEDxmTyvncrS0jAK039EoJth/view)
  
 
   
@@ -23,7 +23,7 @@
   To install first make sure you have node.js installed in your computer. Copy the repository and run NPM install on the same directory to install all dependencies in the package.json file. Make sure MongoDB is intalled in your computer to be able to run the aplication. 
   
   ## Usage
-  Run NPM start to start the server first. Open your from end page or use a tester software like insomnia to test the routes to create, read, update and delete categories, tags or products.
+  Run NPM start to start the server first. Open your from end page or use a tester software like insomnia to test the routes to create, read, update and delete Users or thoughts. Also you will be able to create and delete friends and reactions to thoughts.
 
   ## Contribution
   Anybody is free to contribute to this project as desired. Just contact me via email to present your new ideas to add to this project.
