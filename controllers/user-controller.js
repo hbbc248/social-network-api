@@ -4,11 +4,11 @@ const userController = {
     //get all users
     getAllUsers(req, res) {
         User.find({})
-            .select('-__v')
             .populate({
                 path: 'thoughts',
                 select: '-__v'
             })
+            .select('-__v')
             .sort({ username: 1 })
             .then(dbUserData => res.json(dbUserData))
             .catch(err => {
@@ -63,7 +63,7 @@ const userController = {
                     res.status(404).json({ message: 'No user found with this id' });
                     return;
                 }
-                res.json(dbUserData);
+                res.json({ message: 'Sucess! User was deleted' });
             })
             .catch(err => res.status(400).json(err));
     },
